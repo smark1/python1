@@ -18,7 +18,7 @@ class allhosts:
 
 def pull_data(self, target_env, app):
 “””pull data from opened”””
-url = ‘http://opsnode.nikedev.com:8001/services/getkey.cgi?env={0}&key-regex={1}'.format(target_env, app)
+url = ‘http://opsnode.xxxxxx.com:8001/?env={0}&key-regex={1}'.format(target_env, app)
 opsnode = requests.get(url)
 content = opsnode.text
 return content
