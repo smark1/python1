@@ -36,7 +36,7 @@ return hotlist
 
 def print_out(self, hostlist, app, target_env):
    “””print out”””
-    print “\n\n ****{0) Hosts found for {1} in {2} ***\n\n”.format(len(hostlist), app, target_env)
+  
     counter=0
 for i in hostlist:
 counter+=1
